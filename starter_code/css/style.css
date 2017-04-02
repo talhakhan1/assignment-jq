@@ -103,21 +103,23 @@ header {
   box-shadow: #111 0 0 20px;
 }
 #submit-btn {
+  padding-top:1px;
   background: #ffe500;
   color: #000;
-  font-size: 38px;
+  font-size:25px;
   font-weight: bold;
   text-transform: uppercase;
   border: 1px solid #111;
   text-align: center;
   display: inline-block;
-  width: 250px;
-  height: 72px;
-  line-height: 74px;
+  width: 150px;
+  height: 40px;
+  line-height:50px;
   vertical-align: middle;
   box-shadow: #111 0 0 50px;
   font-family: helvetica, arial, sans-serif;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 #submit-btn:hover {
   background: #fff600;
@@ -138,6 +140,22 @@ header {
 .sydney {
   background-image: url(../images/sydney.jpg)
 }
+/*Dropdown Menu Styling*/
+
+
+.dropdown{
+  background-color: #ffffff;
+  font-size:30px;
+  font-style: italic;
+  text-align: center;
+  cursor: pointer;
+  font-family:helvetica, arial, sans-serif;
+  width:680px;
+  opacity:0.5;
+
+
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
